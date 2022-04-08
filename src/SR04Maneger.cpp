@@ -12,7 +12,7 @@ SR04Maneger::~SR04Maneger()
     delete m_hcsr04;
 }
 
-bool SR04Maneger::distance_cm(int value)
+bool SR04Maneger::distance_cm(float value)
 {
     static unsigned long last_time = 0;
     if (millis() - last_time < 3000)

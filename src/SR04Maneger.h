@@ -14,7 +14,7 @@ private:
 public:
     SR04Maneger(/* args */);
     ~SR04Maneger();
-    bool distance_cm(int value);
+    bool distance_cm(float value);
 };
 
 #endif // __SR04MANEGER_H__
